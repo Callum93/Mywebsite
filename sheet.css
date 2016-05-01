@@ -107,10 +107,10 @@ footer {
 
 }
 #footer li:first-child {
-    margin-left:220px;
+    margin-left:200px;
 }
 #footer li:last-child {
-    margin-right:220px;
+    margin-right:200px;
 }
 #footer li a {
     display:inline-block;
