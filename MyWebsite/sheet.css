@@ -1,0 +1,167 @@
+
+ul {
+    list-style: none;
+}
+
+#menu {
+    margin: 0;
+    padding: 0;
+    max-width:265px;
+
+}
+
+li a{
+    Display:block;
+    text-align:Left;
+    padding: 2.5px;
+}
+
+aside {
+    font-family: 'Exo', sans-serif;
+    Padding: 5px;
+    Text-align:center;
+    background-image: url("YTBack.png");
+    border: solid 2px blue;
+}
+
+
+#Home {
+    width: 250px;
+    height: 25px;
+    text-align:left;
+}
+#cv {
+    width: 250px;
+    height: 25px;
+    text-align:left;
+}
+#Pets {
+    width: 250px;
+    height: 25px;
+    text-align:left;
+}
+#Youtube {
+    width: 250px;
+    height: 25px;
+    text-align:left;
+}
+#IH {
+    width: 250px;
+    height: 25px;
+    text-align:left;
+}
+#Youtube2 {
+    width: 100px;
+    height: 25px;
+}
+#Google {
+    width: 100px;
+    height: 25px;
+}
+#OL {
+    width: 100px;
+    height: 25px;
+}
+#FB {
+    width: 100px;
+    height: 25px;
+}
+
+#car {
+    Width: 600px;
+    Height: 400px;
+    Border: solid Dodgerblue;
+    Margin-left: 130px;
+    Margin-right: 130px;
+}
+body {
+    width:900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+section{
+
+    float: left;
+    font-family: 'Exo', sans-serif;
+    background-image: url("background.jpg");
+    color: indigo;
+    Padding: 5px;
+    min-height: 600px;
+    border-bottom: solid dodgerblue;
+}
+
+h2, h3 {
+    Font-weight: 300;
+     text-align: center;
+}
+#fix {
+    clear: both;
+}
+footer {
+   float:left;
+    display:inline-block;
+}
+
+#footer li {
+    float:left;
+
+}
+#footer li:first-child {
+    margin-left:220px;
+}
+#footer li:last-child {
+    margin-right:220px;
+}
+#footer li a {
+    display:inline-block;
+
+}
+iframe {
+    margin-left: 150px;
+    margin-right: 150px;
+
+}
+
+#likecontainer {
+    margin-left: auto;
+    margin-right: auto;
+    width:200px;
+}
+ #googlemaps {
+     margin-left: 225px;
+     margin-right: 225px;
+
+ }
+
+
+#Logo {
+    margin-left:150px;
+    margin-right:150px;
+    width: 600px;
+    height:60px;
+    text-align:center;
+}
+
+
+#Tess {
+    width:200px;
+    height:200px;
+    border: solid dodgerblue;
+}
+
+#Wilf {
+    width:200px;
+    height:200px;
+    border: solid dodgerblue;
+}
+
+article {
+    text-align: center;
+ }
+
+#Si {
+    width: 250px;
+    height: 25px;
+    text-align:left;
+}
+

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<title>Stranded Island</title>
+<link type="text/css" rel="stylesheet" href="sheet.css"/>
+<link href='https://fonts.googleapis.com/css?family=Exo' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="unsemantic-grid-responsive-tablet.css">
+<meta
+        name="viewport"
+        content="
+        width=device-width,
+        initial-scale=1,
+        minimum-scale=1,
+        maximum-scale=1"/>
+</head>
+
+<body>
+
+
+<img id="Logo" src="WebsiteLogo.png">
+
+<Header class="grid-container">
+
+
+    <br>
+    <nav>
+        <ul id="menu" class="grid-35">
+            <li><a href ="Website.html"><img id="Home" src="Homepage.png"></a></li>
+            <li><a href ="CV.html"><img id="cv" src="CV.png"></a></li>
+            <li><a href  ="Youtube.html"><img id="Youtube" src="Youtube.png"></a></li>
+            <li><a href ="Interests.html"><img id="IH" src="IH.png"></a></li>
+            <li><a href ="My%20pets.html"><img id="Pets" src="Pets.png"></a></li>
+            <li><a href ="mygame.html"><img id="Si" src="Si.png"></a></li>
+
+        </ul>
+    </nav>
+
+
+    <aside class="grid-65">
+        <h2><u>Youtube advertisement</u></h2>
+        <a href  ="Youtube.html">Here are my youtube videos!</a>
+    </aside>
+</Header>
+
+
+<main class="grid-container">
+
+    <section class="grid-100 tablet-grid-100 mobile-grid-100">
+
+
+        <script>
+            confirm("Are you ready to play?");
+            document.write("<p>You wake up on a strange island. Around you is palm trees, sand and an endless amount of water. As you look around there is no sign of life to be seen. In your pocket you have a swiss army knife and some loose change. A storm is beginning and it is probally wise to look for some shelter.</p>");
+            document.write("<p>Looking for shelter!</p>");
+            var userAnswer = prompt("You find a pathway that has splits into two directions, Do we go left or right?");
+            if (userAnswer="left")
+            {
+                document.write("<p>You go left and find a small lake. Perhaps there is fish in there.</p>");
+            }
+            else if (userAnswer="right")
+            {
+                document.write("<p>You go right and find the remains of a crashed airplane, Could be used for shelter.</p>");
+            }
+            else {
+                document.write("<p>invalid option, Please select left or right</p>");
+            }
+
+        </script>
+
+    </section>
+
+    <div id="fix">
+    </div>
+    <footer>
+
+        <nav>
+            <ul id="footer">
+                <li><a href ="http://www.youtube.com"><img id="Youtube2" src="Youtube2.png"></a></li>
+                <li><a href ="http://www.facebook.com"><img id="FB" src="FB.png"></a></li>
+                <li><a href ="http://www.office365.com"><img id="OL" src="OL.png"></a></li>
+                <li><a href ="http://www.google.com"><img id="Google" src="Google.png"></a></li>
+            </ul>
+        </nav>
+
+    </footer>
+
+</body>
+
+</html>
